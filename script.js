@@ -309,7 +309,7 @@ function pick(guess) {
         numbers.push(Math.floor(Math.random() * 11))
     }
 
-    text.innerText += "You chose to touch pillar" + guess + "." + "Here are the numbers that flash before you:\n";
+    text.innerText = "You chose to touch pillar" + guess + "." + "Here are the numbers that flash before you:\n";
     
     for (let i = 0; i < 10; i++) {
         text.innerText += numbers[i] + "\n";
